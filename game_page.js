@@ -55,6 +55,7 @@ function check(){
             document.getElementById("player2_score").innerHTML = player2_score;
         }
     }
+
     if (question_turn=="player_1"){
         question_turn = "player_2";
         document.getElementById("player_question").innerHTML = "Question turn - "+ player2_name;
@@ -63,6 +64,7 @@ function check(){
         question_turn = "player_1";
         document.getElementById("player_question").innerHTML = "Question turn - "+ player1_name;
     }
+    
     if(answer_turn=="player_1"){
         answer_turn = "player2";
         document.getElementById("player_answer").innerHTML = "Answer turn - "+ player2_name;
